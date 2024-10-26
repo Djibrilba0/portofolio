@@ -1,0 +1,141 @@
+/* Réinitialisation de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    color: #343a40;
+    line-height: 1.6;
+}
+
+/* En-tête */
+header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+/* Sections */
+section {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 2em;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titres des sections */
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5em;
+}
+
+/* Projets */
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 15px;
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+    color: #007bff;
+}
+
+/* Liste de compétences */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #007bff;
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #343a40;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+/* Style de la section de contact */
+#contact {
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    margin: 10px 0 5px;
+}
+
+#contact input,
+#contact textarea {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+#contact button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#contact button:hover {
+    background-color: #0056b3;
+}
+
+a:hover {
+    text-decoration: underline;
+}
